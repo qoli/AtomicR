@@ -1,0 +1,42 @@
+{
+	"version": "0.1",
+	"commandTitle": [
+        "狀態",
+        "國外連線",
+        "WAN IP",
+        "Date",
+        "可用指令",
+        "安裝插件到路由器",
+        "重新啟動 Shadowsock 服務",
+        "停止 Shadowsock 服務",
+        "重啟 DNSMASQ 服務",
+        "PPPOE 重新撥號",
+        "測試命令"
+    ],
+    "commandList": [
+        "",
+        "sh /tmp/home/root/sstest.sh",
+        "nvram get wan0_realip_ip",
+        "date",
+        "",
+        "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh",
+        "/koolshare/ss/ssconfig.sh restart",
+        "/koolshare/ss/ssconfig.sh stop",
+        "service restart_dnsmasq",
+        "service restart_wan",
+        "ls -la /"
+    ],
+    "tableCellType": [
+        "Title",
+        "Status",
+        "Status",
+        "Status",
+        "Title",
+        "Command",
+        "Command",
+        "Command",
+        "Command",
+        "Command",
+        "Command"
+    ]
+}
