@@ -11,7 +11,8 @@
     "停止 Shadowsock 服務",
     "重啟 DNSMASQ 服務",
     "PPPOE 重新撥號",
-    "測試命令"
+    "測試命令",
+    "顯示 www 目錄"
   ],
   "commandList": [
     "",
@@ -24,7 +25,8 @@
     "/koolshare/ss/ssconfig.sh stop",
     "service restart_dnsmasq",
     "service restart_wan",
-    "ls -la /"
+    "ls -la /",
+    "ls /www"
   ],
   "tableCellType": [
     "Title",
@@ -32,6 +34,7 @@
     "Status",
     "Status",
     "Title",
+    "Command",
     "Command",
     "Command",
     "Command",
