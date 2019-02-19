@@ -8,8 +8,8 @@
       "value": "信息"
     },
     {
-      "type": "message",
-      "value": "脚本说明",
+      "type": "status",
+      "value": "BBR 状态",
       "action": "sysctl net.ipv4.tcp_available_congestion_control"
     },
     {
