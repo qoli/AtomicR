@@ -1,0 +1,34 @@
+{
+  "version": "2",
+  "name": "ShadowsockClient",
+  "data": [
+    {
+      "type": "title",
+      "value": "Information"
+    },
+    {
+      "type": "status",
+      "value": "Google IP",
+      "action": "inAppAction"
+    },
+    {
+      "type": "status",
+      "value": "WAN IP",
+      "action": "nvram get wan0_realip_ip"
+    },
+    {
+      "type": "status",
+      "value": "Working Config",
+      "action": "nvram get wan0_realip_ip"
+    },
+    {
+      "type": "title",
+      "value": "Action"
+    },
+    {
+      "type": "action",
+      "value": "重新啟動 Shadowsock 服務",
+      "action": "/koolshare/ss/ssconfig.sh restart"
+    }
+  ]
+}

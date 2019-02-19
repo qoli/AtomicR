@@ -1,0 +1,49 @@
+{
+  "version": "2",
+  "name": "SS",
+  "data": [
+    {
+      "type": "title",
+      "value": "信息"
+    },
+    {
+      "type": "message",
+      "value": "脚本说明",
+      "action": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可"
+    }
+    {
+      "type": "title",
+      "value": "指令"
+    },
+    {
+      "type": "action",
+      "value": "更新软件源并安装 Git",
+      "action": "apt-get update && apt-get -y install git"
+    },
+    {
+      "type": "action",
+      "value": "克隆脚本内容到服务器",
+      "action": "git clone https://github.com/flyzy2005/ss-fly"
+    },
+    {
+      "type": "action",
+      "value": "一键安装 SS",
+      "action": "ss-fly/ss-fly.sh -i flyzy2005.com 1024"
+    },
+    {
+      "type": "action",
+      "value": "重启 SS",
+      "action": "/etc/init.d/ss-fly restart"
+    },
+    {
+      "type": "action",
+      "value": "状态",
+      "action": "/etc/init.d/ss-fly status"
+    },
+    {
+      "type": "action",
+      "value": "查看 SS 链接",
+      "action": "ss-fly/ss-fly.sh -sslink"
+    }
+  ]
+}

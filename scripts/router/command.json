@@ -6,12 +6,12 @@
     "WAN IP",
     "Date",
     "可用指令",
-    "安裝插件到路由器",
+    "安裝或重裝 Shadowsock",
     "重新啟動 Shadowsock 服務",
     "停止 Shadowsock 服務",
     "重啟 DNSMASQ 服務",
     "PPPOE 重新撥號",
-    "測試命令",
+    "安裝 optware",
     "顯示 www 目錄"
   ],
   "commandList": [
@@ -25,7 +25,7 @@
     "/koolshare/ss/ssconfig.sh stop",
     "service restart_dnsmasq",
     "service restart_wan",
-    "ls -la /",
+    "cd /tmp && curl -LO https://github.com/qoli/Merlin.PHP/raw/master/bin/install/ipks/optware-ngu-setup.sh && sh ./optware-ngu-setup.sh",
     "ls /www"
   ],
   "tableCellType": [
