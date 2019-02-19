@@ -1,7 +1,7 @@
 {
   "version": "2",
   "name": "ShadowsockR 服务器",
-  "category": "server",
+  "category":"server",
   "data": [
     {
       "type": "title",
@@ -10,17 +10,12 @@
     {
       "type": "message",
       "value": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可。",
-      "action": "脚本要求 root 用户"
+      "action": "脚本要求 root 用戶"
     },
     {
       "type": "webview",
       "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/",
       "action": "脚本说明网页"
-    },
-    {
-      "type": "status",
-      "value": "查看 SS 链接",
-      "action": "ss-fly/ss-fly.sh -sslink"
     },
     {
       "type": "title",
@@ -50,6 +45,11 @@
       "type": "action",
       "value": "状态",
       "action": "/etc/init.d/shadowsocks status"
+    },
+    {
+      "type": "action",
+      "value": "查看 SS 链接",
+      "action": "ss-fly/ss-fly.sh -sslink"
     }
   ]
 }
