@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "name": "SS",
+  "name": "Shadowsock 服务器",
   "data": [
     {
       "type": "title",
@@ -8,8 +8,8 @@
     },
     {
       "type": "message",
-      "value": "脚本说明",
-      "action": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可"
+      "value": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可",
+      "action": "脚本说明"
     },
     {
       "type": "title",
@@ -17,7 +17,7 @@
     },
     {
       "type": "action",
-      "value": "更新软件源并安装 Git",
+      "value": "更新软件源并安装 Git （Ubuntu/Debian）",
       "action": "apt-get update && apt-get -y install git"
     },
     {
