@@ -1,10 +1,10 @@
 {
     "version": "2",
-    "name": "Shadowsock",
+    "name": "Shadowsock 客户端",
     "data": [
         {
             "type": "title",
-            "value": "Information"
+            "value": "信息"
         },
         {
             "type": "status",
@@ -18,31 +18,31 @@
         },
         {
             "type": "status",
-            "value": "Running",
+            "value": "运行中",
             "action": "dbus get ssconf_basic_name_$(dbus get ssconf_basic_node)"
         },
         {
             "type": "title",
-            "value": "Action"
+            "value": "操作"
         },
         {
             "type": "action",
-            "value": "安裝或重裝或更新 Shadowsock",
+            "value": "安装或重装或更新 Shadowsock",
             "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh"
         },
         {
             "type": "action",
-            "value": "重啟 Shadowsock 服務",
+            "value": "重启 Shadowsock 服务",
             "action": "sh /koolshare/scripts/ss_config.sh"
         },
         {
             "type": "action",
-            "value": "服務器訂閱更新",
+            "value": "服务器订阅更新",
             "action": "sh /koolshare/scripts/ss_online_update.sh"
         },
         {
             "type": "action",
-            "value": "重新撥號",
+            "value": "重新拨号",
             "action": "service restart_wan"
         }
     ]

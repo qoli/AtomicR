@@ -10,7 +10,7 @@
       "type": "message",
       "value": "脚本说明",
       "action": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可"
-    }
+    },
     {
       "type": "title",
       "value": "指令"

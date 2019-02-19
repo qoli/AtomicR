@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "name": "optware",
+  "name": "optware 环境",
   "data": [
     {
       "type": "title",
@@ -8,7 +8,7 @@
     },
     {
       "type": "action",
-      "value": "重新啟動 Shadowsock 服務",
+      "value": "安装环境",
       "action": "cd /tmp && curl -LO https://github.com/qoli/Merlin.PHP/raw/master/bin/install/ipks/optware-ngu-setup.sh && sh ./optware-ngu-setup.sh"
     },
     {
