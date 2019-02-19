@@ -1,6 +1,7 @@
 {
     "version": "2",
     "name": "Shadowsock 客户端",
+    "category":"clinent",
     "data": [
         {
             "type": "title",

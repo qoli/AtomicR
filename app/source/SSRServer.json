@@ -1,6 +1,7 @@
 {
   "version": "2",
-  "name": "SSR",
+  "name": "ShadowsockR 服务器",
+  "category":"server",
   "data": [
     {
       "type": "title",
@@ -8,8 +9,13 @@
     },
     {
       "type": "message",
-      "value": "脚本说明",
-      "action": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可"
+      "value": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可",
+      "action": "脚本说明"
+    },
+    {
+      "type": "webview",
+      "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/",
+      "action": "脚本说明网页"
     },
     {
       "type": "title",

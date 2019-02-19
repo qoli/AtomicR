@@ -1,6 +1,7 @@
 {
   "version": "2",
   "name": "bbr",
+  "category": "server",
   "data": [
     {
       "type": "title",

@@ -1,6 +1,7 @@
 {
   "version": "2",
   "name": "optware 环境",
+  "category":"clinent",
   "data": [
     {
       "type": "title",
