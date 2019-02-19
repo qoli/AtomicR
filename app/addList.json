@@ -21,6 +21,11 @@
       "title": "安装 bbr",
       "desc": "BBR 是 Google 开源的一套内核加速算法",
       "name": "bbr"
+    },
+    {
+      "title": "清空激活列表",
+      "desc": "清空 Add 列表",
+      "name": ""
     }
   ]
 }
