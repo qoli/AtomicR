@@ -4,6 +4,14 @@
 
 
 
+## app
+
+shadowsocks 系列脚本来源：
+
+https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/
+
+
+
 ## Screen
 
 ![screen](./README/screen.png)
