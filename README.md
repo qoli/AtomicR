@@ -1,10 +1,16 @@
-# AtomicR
+# PlaneR
 
-梅林路由器的 iOS 管理工具的腳本請求位置
+PlaneR 是一款基於 JSON 腳本運作的 App。
+
+可用於管理路由器、樹莓派、服務器等透過 SSH 訪問的設備。
 
 
 
-## app
+AtomicR 項目是 PlaneR 的腳本存放位置。
+
+
+
+## Service
 
 shadowsocks 系列脚本来源：
 
@@ -13,5 +19,17 @@ https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-comma
 
 
 ## Screen
+
+##### Version 2
+
+![Screen1](./README/Screen1.png)
+
+![Screen2](./README/Screen2.png)
+
+![Screen3](./README/Screen3.png)
+
+
+
+##### Version 1
 
 ![screen](./README/screen.png)
