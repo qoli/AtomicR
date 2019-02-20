@@ -19,7 +19,7 @@
     },
     {
       "type": "title",
-      "value": "指令"
+      "value": "安裝"
     },
     {
       "type": "action",
@@ -35,6 +35,10 @@
       "type": "action",
       "value": "交互式安裝 SSR",
       "action": "ss-fly/ss-fly.sh -ssr"
+    },
+    {
+      "type": "title",
+      "value": "操作"
     },
     {
       "type": "action",
