@@ -10,7 +10,7 @@
     {
       "type": "status",
       "value": "BBR 状态",
-      "action": "echo sysctl net.ipv4.tcp_available_congestion_control"
+      "action": "echo $(sysctl net.ipv4.tcp_available_congestion_control)"
     },
     {
       "type": "title",

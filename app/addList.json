@@ -35,6 +35,20 @@
       "name": "bbr"
     },
     {
+      "type": "title",
+      "title": "树莓派 / Pi"
+    },
+    {
+      "type": "list",
+      "title": "安装 HomeBridge",
+      "desc": "Homebridge is a lightweight NodeJS server",
+      "name": "homebridge"
+    },
+    {
+      "type": "title",
+      "title": "其他"
+    },
+    {
       "type": "list",
       "title": "清空激活列表",
       "desc": "清空 Add 列表",
