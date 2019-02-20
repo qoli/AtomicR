@@ -9,27 +9,31 @@
         },
         {
             "type": "status",
-            "value": "Google IP",
+            "value": "国外 IP",
             "action": "FetchRequest"
         },
         {
             "type": "status",
-            "value": "WAN IP",
+            "value": "国内 IP",
             "action": "nvram get wan0_realip_ip"
         },
         {
             "type": "status",
-            "value": "运行中",
+            "value": "运行中配置",
             "action": "dbus get ssconf_basic_name_$(dbus get ssconf_basic_node)"
         },
         {
             "type": "title",
-            "value": "操作"
+            "value": "安装"
         },
         {
             "type": "action",
             "value": "安装或重装或更新 Shadowsock",
             "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh"
+        },
+        {
+            "type": "title",
+            "value": "操作"
         },
         {
             "type": "action",
