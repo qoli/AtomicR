@@ -3,26 +3,39 @@
   "name": "addList",
   "data": [
     {
+      "type": "title",
+      "title": "路由器"
+    },
+    {
+      "type": "list",
       "title": "Optware 环境",
       "desc": "给路由器添加 ipkg 软件源管理工具",
       "name": "optware"
     },
     {
+      "type": "title",
+      "title": "服务器"
+    },
+    {
+      "type": "list",
       "title": "SS 服务器端",
       "desc": "在服务器上安装 Shadowsock 服务器端",
       "name": "SSServer"
     },
     {
+      "type": "list",
       "title": "SSR 服务器端",
       "desc": "在服务器上安装 ShadowsockR 服务器端",
       "name": "SSRServer"
     },
     {
+      "type": "list",
       "title": "安装 BBR",
       "desc": "BBR 是 Google 开源的一套内核加速算法",
       "name": "bbr"
     },
     {
+      "type": "list",
       "title": "清空激活列表",
       "desc": "清空 Add 列表",
       "name": ""
