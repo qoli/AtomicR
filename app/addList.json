@@ -41,7 +41,7 @@
     {
       "type": "list",
       "title": "安装 HomeBridge",
-      "desc": "Homebridge is a lightweight NodeJS server",
+      "desc": "HomeBridge 是一个模拟 HomeKit API轻量级的 Node.js 服务器",
       "name": "homebridge"
     },
     {
