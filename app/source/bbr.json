@@ -14,7 +14,7 @@
     },
     {
       "type": "title",
-      "value": "指令"
+      "value": "安装"
     },
     {
       "type": "action",
@@ -28,23 +28,8 @@
     },
     {
       "type": "action",
-      "value": "交互式安裝 SSR",
-      "action": "ss-fly/ss-fly.sh -ssr"
-    },
-    {
-      "type": "action",
-      "value": "重启 SS",
-      "action": "/etc/init.d/shadowsocks restart"
-    },
-    {
-      "type": "action",
-      "value": "状态",
-      "action": "/etc/init.d/shadowsocks status"
-    },
-    {
-      "type": "action",
-      "value": "查看 SS 链接",
-      "action": "ss-fly/ss-fly.sh -sslink"
+      "value": "安装 BBR",
+      "action": "~/ss-fly/ss-fly.sh -bbr"
     }
   ]
 }
