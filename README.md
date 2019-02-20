@@ -10,6 +10,14 @@ AtomicR 項目是 PlaneR 的腳本存放位置。
 
 
 
+## 公测版本
+
+https://testflight.apple.com/join/6Sh4OA2b
+
+公测版本存在很多问题，可使用 GitHub issues 反馈
+
+
+
 ## Service
 
 shadowsocks 系列脚本来源：
