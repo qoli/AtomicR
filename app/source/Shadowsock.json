@@ -9,18 +9,8 @@
         },
         {
             "type": "status",
-            "value": "国外 IP",
-            "action": "FetchRequest"
-        },
-        {
-            "type": "status",
             "value": "国内 IP",
             "action": "nvram get wan0_realip_ip"
-        },
-        {
-            "type": "status",
-            "value": "运行中配置",
-            "action": "dbus get ssconf_basic_name_$(dbus get ssconf_basic_node)"
         },
         {
             "type": "title",
@@ -44,6 +34,11 @@
             "type": "action",
             "value": "服务器订阅更新",
             "action": "sh /koolshare/scripts/ss_online_update.sh"
+        },
+        {
+            "type": "action",
+            "value": "重啟 dnsmasq",
+            "action": "service restart_dnsmasq"
         },
         {
             "type": "action",

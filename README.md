@@ -1,6 +1,6 @@
-# PlaneR
+# Plane Router
 
-PlaneR 是一款基於 JSON 腳本運作的 App。
+Plane Router 是一款基於 JSON 腳本運作的 App。
 
 可用於管理路由器、樹莓派、服務器等透過 SSH 訪問的設備。
 
