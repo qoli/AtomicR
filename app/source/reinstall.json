@@ -1,0 +1,54 @@
+{
+  "version": "2",
+  "name": "服务器一键重装",
+  "category": "server",
+  "data": [
+    {
+      "type": "title",
+      "value": "信息"
+    },
+    {
+      "type": "message",
+      "value": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可。",
+      "action": "脚本要求 root 用戶"
+    },
+    {
+      "type": "webview",
+      "value": "https://tech.cxthhhhh.com/linux/2018/11/29/original-one-click-network-reinstall-system-magic-modify-version-for-linux-windows-cn.html",
+      "action": "脚本说明网页"
+    },
+    {
+      "type": "title",
+      "value": "Debian/Ubuntu"
+    },
+    {
+      "type": "action",
+      "value": "更新软件源并安装 xz-utils openssl gawk file",
+      "action": "apt-get update && apt-get install -y xz-utils openssl gawk file"
+    },
+    {
+      "type": "action",
+      "value": "下载SHELL脚本",
+      "action": "wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://tech.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh"
+    },
+    {
+      "type": "title",
+      "value": "操作"
+    },
+    {
+      "type": "action",
+      "value": "重装 Ubuntu 18.04",
+      "action": "bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_18.04"
+    },
+    {
+      "type": "action",
+      "value": "重装 CentOS 7",
+      "action": "bash ~/Network-Reinstall-System-Modify.sh -CentOS_7"
+    },
+    {
+      "type": "action",
+      "value": "重装 Debian 9",
+      "action": "bash ~/Network-Reinstall-System-Modify.sh -Debian_9"
+    },
+  ]
+}

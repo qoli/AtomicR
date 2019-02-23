@@ -34,6 +34,12 @@
       "desc": "BBR 是 Google 开源的一套内核加速算法",
       "name": "bbr"
     },
+        {
+      "type": "list",
+      "title": "一鍵重裝腳本",
+      "desc": "BBR 是 Google 开源的一套内核加速算法",
+      "name": "reinstall"
+    },
     {
       "type": "title",
       "title": "树莓派 / Pi"
