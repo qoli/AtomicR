@@ -9,7 +9,7 @@
     },
     {
       "type": "message",
-      "value": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可。",
+      "value": "所有系统安装完毕的默认密码是[cxthhhhh.com]",
       "action": "脚本要求 root 用戶"
     },
     {
