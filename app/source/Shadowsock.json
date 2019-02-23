@@ -10,7 +10,7 @@
         {
             "type": "status",
             "value": "国内 IP",
-            "action": "nvram get wan0_realip_ip"
+            "action": "nvram get wan0_ipaddr"
         },
         {
             "type": "title",
