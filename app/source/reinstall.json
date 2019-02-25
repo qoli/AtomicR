@@ -29,12 +29,12 @@
     {
       "type": "action",
       "value": "更新软件源并安装依赖",
-      "action": "apt-get update && apt-get install -y xz-utils openssl gawk file"
+      "action": "apt-get update && apt-get install -y xz-utils openssl gawk file && exit"
     },
     {
       "type": "action",
       "value": "下载脚本",
-      "action": "wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://tech.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh"
+      "action": "wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://tech.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh && exit"
     },
     {
       "type": "title",
@@ -43,17 +43,17 @@
     {
       "type": "action",
       "value": "重装 Ubuntu 18.04",
-      "action": "bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_18.04"
+      "action": "bash ~/Network-Reinstall-System-Modify.sh -Ubuntu_18.04 && exit"
     },
     {
       "type": "action",
       "value": "重装 CentOS 7",
-      "action": "bash ~/Network-Reinstall-System-Modify.sh -CentOS_7"
+      "action": "bash ~/Network-Reinstall-System-Modify.sh -CentOS_7 && exit"
     },
     {
       "type": "action",
       "value": "重装 Debian 9",
-      "action": "bash ~/Network-Reinstall-System-Modify.sh -Debian_9"
+      "action": "bash ~/Network-Reinstall-System-Modify.sh -Debian_9 && exit"
     },
   ]
 }
