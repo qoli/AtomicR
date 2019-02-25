@@ -15,7 +15,7 @@
     {
       "type": "webview",
       "value": "https://tech.cxthhhhh.com/linux/2018/11/29/original-one-click-network-reinstall-system-magic-modify-version-for-linux-windows-cn.html",
-      "action": "脚本说明网页"
+      "action": "说明网页"
     },
     {
       "type": "title",
@@ -23,7 +23,7 @@
     },
     {
       "type": "action",
-      "value": "更新软件源并安装 xz-utils openssl gawk file",
+      "value": "更新软件源并安装依赖",
       "action": "apt-get update && apt-get install -y xz-utils openssl gawk file"
     },
     {
