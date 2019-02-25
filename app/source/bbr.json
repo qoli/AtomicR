@@ -19,12 +19,12 @@
     {
       "type": "action",
       "value": "更新软件源并安装 Git",
-      "action": "apt-get update && apt-get -y install git"
+      "action": "apt-get update && apt-get -y install git && exit"
     },
     {
       "type": "action",
       "value": "克隆脚本内容到服务器",
-      "action": "git clone https://github.com/flyzy2005/ss-fly"
+      "action": "git clone https://github.com/flyzy2005/ss-fly && exit"
     },
     {
       "type": "action",
