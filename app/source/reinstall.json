@@ -9,8 +9,8 @@
     },
     {
       "type": "message",
-      "value": "所有系统安装完毕的默认密码是[cxthhhhh.com]",
-      "action": "脚本要求 root 用戶"
+      "value": "系统重装后，账号 root，密码 cxthhhhh.com",
+      "action": "账号密码"
     },
     {
       "type": "webview",
@@ -28,7 +28,7 @@
     },
     {
       "type": "action",
-      "value": "下载SHELL脚本",
+      "value": "下载脚本",
       "action": "wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://tech.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' && chmod a+x ~/Network-Reinstall-System-Modify.sh"
     },
     {
