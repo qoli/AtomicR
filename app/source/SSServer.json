@@ -9,41 +9,50 @@
     },
     {
       "type": "message",
-      "value": "脚本推荐在 Ubuntu/Debian 下进行安装，Centos 亦可",
-      "action": "脚本说明"
+      "value": "脚本要求",
+      "action": "需要 root 用户执行"
+    },
+    {
+      "type": "webview",
+      "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/",
+      "action": "说明网页"
     },
     {
       "type": "title",
-      "value": "指令"
+      "value": "Ubuntu/Debian 使用"
     },
     {
       "type": "action",
-      "value": "更新软件源并安装 Git （Ubuntu/Debian）",
-      "action": "apt-get update && apt-get -y install git"
+      "value": "1. 更新软件源并安装依赖",
+      "action": "apt-get update && apt-get -y install git && exit"
     },
     {
       "type": "action",
-      "value": "克隆脚本内容到服务器",
-      "action": "git clone https://github.com/flyzy2005/ss-fly"
+      "value": "2. 克隆脚本内容到服务器",
+      "action": "git clone https://github.com/flyzy2005/ss-fly && exit"
     },
     {
       "type": "action",
-      "value": "一键安装 SS",
+      "value": "3. 一键安装",
       "action": "ss-fly/ss-fly.sh -i flyzy2005.com 1024"
     },
     {
+      "type": "title",
+      "value": "操作"
+    },
+    {
       "type": "action",
-      "value": "重启 SS",
+      "value": "重启",
       "action": "/etc/init.d/ss-fly restart"
     },
     {
       "type": "action",
-      "value": "状态",
+      "value": "查看状态",
       "action": "/etc/init.d/ss-fly status"
     },
     {
       "type": "action",
-      "value": "查看 SS 链接",
+      "value": "查看链接",
       "action": "ss-fly/ss-fly.sh -sslink"
     }
   ]
