@@ -33,7 +33,7 @@
         {
             "type": "action",
             "value": "服务器订阅更新",
-            "action": "sh /koolshare/scripts/ss_online_update.sh"
+            "action": "sh /koolshare/scripts/ss_online_update.sh && exit"
         },
         {
             "type": "action",
