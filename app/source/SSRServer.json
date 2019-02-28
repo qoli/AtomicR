@@ -28,12 +28,12 @@
     },
     {
       "type": "action",
-      "value": "1. 克隆脚本内容到服务器",
+      "value": "2. 克隆脚本内容到服务器",
       "action": "git clone https://github.com/flyzy2005/ss-fly && exit"
     },
     {
       "type": "action",
-      "value": "1. 交互式安裝 SSR",
+      "value": "3. 交互式安裝 SSR",
       "action": "ss-fly/ss-fly.sh -ssr"
     },
     {
