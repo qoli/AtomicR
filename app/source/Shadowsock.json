@@ -8,11 +8,6 @@
       "value": "信息"
     },
     {
-      "type": "status",
-      "value": "国内 IP",
-      "action": "nvram get wan0_ipaddr"
-    },
-    {
       "type": "webview",
       "value": "https://github.com/hq450/fancyss/blob/master/README.md",
       "action": "说明网页"
