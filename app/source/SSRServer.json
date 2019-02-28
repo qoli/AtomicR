@@ -23,17 +23,17 @@
     },
     {
       "type": "action",
-      "value": "更新软件源并安装 Git",
+      "value": "1. 更新软件源并安装 Git",
       "action": "apt-get update && apt-get -y install git && exit"
     },
     {
       "type": "action",
-      "value": "克隆脚本内容到服务器",
+      "value": "1. 克隆脚本内容到服务器",
       "action": "git clone https://github.com/flyzy2005/ss-fly && exit"
     },
     {
       "type": "action",
-      "value": "交互式安裝 SSR",
+      "value": "1. 交互式安裝 SSR",
       "action": "ss-fly/ss-fly.sh -ssr"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       "type": "action",
-      "value": "重启 SS",
+      "value": "重启",
       "action": "/etc/init.d/shadowsocks restart && exit"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "type": "action",
-      "value": "查看 SS 链接",
+      "value": "查看链接",
       "action": "ss-fly/ss-fly.sh -sslink"
     }
   ]
