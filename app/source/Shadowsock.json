@@ -5,6 +5,7 @@
   "data": [
     {
       "type": "webview",
+      "text": "README.md",
       "value": "https://github.com/hq450/fancyss/blob/master/README.md"
     },
     {
