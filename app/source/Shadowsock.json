@@ -4,13 +4,12 @@
   "category": "clinent",
   "data": [
     {
-      "type": "title",
-      "value": "信息"
+      "type": "webview",
+      "value": "https://github.com/hq450/fancyss/blob/master/README.md"
     },
     {
-      "type": "webview",
-      "value": "https://github.com/hq450/fancyss/blob/master/README.md",
-      "action": "说明网页"
+      "type": "title",
+      "value": "信息"
     },
     {
       "type": "title",

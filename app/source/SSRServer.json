@@ -1,8 +1,12 @@
 {
   "version": "2",
   "name": "ShadowsockR 服务器",
-  "category":"server",
+  "category": "server",
   "data": [
+    {
+      "type": "webview",
+      "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/"
+    },
     {
       "type": "title",
       "value": "信息"
@@ -11,11 +15,6 @@
       "type": "message",
       "value": "脚本要求",
       "action": "需要 root 用户执行"
-    },
-    {
-      "type": "webview",
-      "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/",
-      "action": "说明网页"
     },
     {
       "type": "title",
