@@ -27,13 +27,8 @@
         },
         {
             "type": "action",
-            "value": "重启 Shadowsock 服务",
-            "action": "sh /koolshare/scripts/ss_config.sh"
-        },
-        {
-            "type": "action",
             "value": "服务器订阅更新",
-            "action": "sh /koolshare/scripts/ss_online_update.sh"
+            "action": "sh /koolshare/scripts/ss_online_update.sh && exit"
         },
         {
             "type": "action",
@@ -42,7 +37,7 @@
         },
         {
             "type": "action",
-            "value": "重新拨号",
+            "value": "重啓 WAN 服務",
             "action": "service restart_wan"
         }
     ]
