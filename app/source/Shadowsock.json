@@ -1,44 +1,68 @@
 {
-    "version": "2",
-    "name": "Shadowsock 客户端",
-    "category":"clinent",
-    "data": [
-        {
-            "type": "title",
-            "value": "信息"
-        },
-        {
-            "type": "status",
-            "value": "国内 IP",
-            "action": "nvram get wan0_ipaddr"
-        },
-        {
-            "type": "title",
-            "value": "安装"
-        },
-        {
-            "type": "action",
-            "value": "安装或重装或更新 Shadowsock",
-            "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
-        },
-        {
-            "type": "title",
-            "value": "操作"
-        },
-        {
-            "type": "action",
-            "value": "服务器订阅更新",
-            "action": "sh /koolshare/scripts/ss_online_update.sh && exit"
-        },
-        {
-            "type": "action",
-            "value": "重啟 dnsmasq",
-            "action": "service restart_dnsmasq"
-        },
-        {
-            "type": "action",
-            "value": "重啓 WAN 服務",
-            "action": "service restart_wan"
-        }
-    ]
+  "version": "2",
+  "name": "安裝 Shadowsock",
+  "category": "clinent",
+  "data": [
+    {
+      "type": "title",
+      "value": "信息"
+    },
+    {
+      "type": "status",
+      "value": "国内 IP",
+      "action": "nvram get wan0_ipaddr"
+    },
+    {
+      "type": "webview",
+      "value": "https://github.com/hq450/fancyss/blob/master/README.md",
+      "action": "说明网页"
+    },
+    {
+      "type": "title",
+      "value": "HND Model"
+    },
+    {
+      "type": "action",
+      "value": "GT-AC5300 / RT-AC86U",
+      "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_hnd/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+    },
+    {
+      "type": "title",
+      "value": "ARM Model"
+    },
+    {
+      "type": "action",
+      "value": "华硕 / 网件 / linksys EA / 华为",
+      "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+    },
+    {
+      "type": "message",
+      "value": "RT-AC56U RT-AC68U RT-AC66U-B1 RT-AC1900P RT-AC87U RT-AC88U RT-AC3100 RT-AC3200 RT-AC5300",
+      "action": "华硕系列"
+    },
+    {
+      "type": "message",
+      "value": "R6300V2 R6400 R6900 R7000 R8000 R8500",
+      "action": "网件系列"
+    },
+    {
+      "type": "message",
+      "value": "EA6200 EA6400 EA6500v2 EA6700 EA6900",
+      "action": "Linksys EA系列"
+    },
+    {
+      "type": "message",
+      "value": "ws880",
+      "action": "华为"
+    },
+    {
+      "type": "title",
+      "value": "Mipsel Model"
+    },
+    {
+      "type": "action",
+      "value": "RT-N66U / RT-AC66U（非RT-AC66U-B1）",
+      "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_mipsel/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+    }
+  ]
 }
