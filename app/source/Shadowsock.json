@@ -65,5 +65,10 @@
       "value": "RT-N66U RT-AC66U（非RT-AC66U-B1）",
       "action": "支持型號"
     },
+    {
+      "type": "action",
+      "value": "測試命令",
+      "action": "ls"
+    }
   ]
 }
