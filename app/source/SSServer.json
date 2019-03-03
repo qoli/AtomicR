@@ -5,7 +5,7 @@
   "data": [
     {
       "type": "webview",
-      "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/",
+      "value": "https://teddysun.com/358.html",
     },
     {
       "type": "title",
@@ -22,18 +22,8 @@
     },
     {
       "type": "action",
-      "value": "1. 更新软件源并安装依赖",
-      "action": "apt-get update && apt-get -y install git && exit"
-    },
-    {
-      "type": "action",
-      "value": "2. 克隆脚本内容到服务器",
-      "action": "git clone https://github.com/flyzy2005/ss-fly && exit"
-    },
-    {
-      "type": "action",
-      "value": "3. 一键安装",
-      "action": "ss-fly/ss-fly.sh -i flyzy2005.com 1024"
+      "value": "shadowsocks-libev 一键安装",
+      "action": "wget --no-check-certificate -O shadowsocks-libev-debian.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev-debian.sh && chmod +x shadowsocks-libev-debian.sh && ./shadowsocks-libev-debian.sh 2>&1 | tee shadowsocks-libev-debian.log"
     },
     {
       "type": "title",
@@ -42,17 +32,17 @@
     {
       "type": "action",
       "value": "重启",
-      "action": "/etc/init.d/ss-fly restart"
+      "action": "/etc/init.d/shadowsocks restart"
     },
     {
       "type": "action",
       "value": "查看状态",
-      "action": "/etc/init.d/ss-fly status"
+      "action": "/etc/init.d/shadowsocks status"
     },
     {
       "type": "action",
-      "value": "查看链接",
-      "action": "ss-fly/ss-fly.sh -sslink"
+      "value": "卸载",
+      "action": "./shadowsocks-libev-debian.sh uninstall"
     }
   ]
 }

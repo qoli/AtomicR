@@ -1,0 +1,48 @@
+{
+  "version": "2",
+  "name": "L2TP/IPSec 一键安装",
+  "category": "server",
+  "data": [
+    {
+      "type": "webview",
+      "value": "https://teddysun.com/448.html"
+    },
+    {
+      "type": "title",
+      "value": "信息"
+    },
+    {
+      "type": "message",
+      "value": "脚本要求",
+      "action": "需要 root 用户执行"
+    },
+    {
+      "type": "title",
+      "value": "Ubuntu/Debian 使用"
+    },
+    {
+      "type": "action",
+      "value": "一鍵安裝 L2TP/IPSec",
+      "action": "wget --no-check-certificate https://raw.githubusercontent.com/teddysun/across/master/l2tp.sh && chmod +x l2tp.sh && ./l2tp.sh"
+    },
+    {
+      "type": "title",
+      "value": "操作"
+    },
+    {
+      "type": "action",
+      "value": "重启",
+      "action": "service ipsec restart && exit"
+    },
+    {
+      "type": "action",
+      "value": "状态",
+      "action": "service ipsec status"
+    },
+    {
+      "type": "action",
+      "value": "停止",
+      "action": "service ipsec stop"
+    }
+  ]
+}

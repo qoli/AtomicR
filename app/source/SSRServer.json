@@ -5,7 +5,7 @@
   "data": [
     {
       "type": "webview",
-      "value": "https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/"
+      "value": "https://shadowsocks.be/9.html"
     },
     {
       "type": "title",
@@ -22,18 +22,8 @@
     },
     {
       "type": "action",
-      "value": "1. 更新软件源并安装 Git",
-      "action": "apt-get update && apt-get -y install git && exit"
-    },
-    {
-      "type": "action",
-      "value": "2. 克隆脚本内容到服务器",
-      "action": "git clone https://github.com/flyzy2005/ss-fly && exit"
-    },
-    {
-      "type": "action",
-      "value": "3. 交互式安裝 SSR",
-      "action": "ss-fly/ss-fly.sh -ssr"
+      "value": "ShadowsocksR 一键安装",
+      "action": "wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log"
     },
     {
       "type": "title",
@@ -57,7 +47,7 @@
     {
       "type": "action",
       "value": "卸载 ",
-      "action": "~/shadowsocksR.sh uninstall"
+      "action": "./shadowsocksR.sh uninstall"
     }
   ]
 }
