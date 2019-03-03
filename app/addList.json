@@ -18,6 +18,12 @@
     },
     {
       "type": "list",
+      "title": "终端",
+      "desc": "打开终端界面",
+      "name": "terminal"
+    },
+    {
+      "type": "list",
       "title": "SS 服务器端",
       "desc": "在服务器上安装 Shadowsock 服务器端",
       "name": "SSServer"
@@ -42,8 +48,8 @@
     },
     {
       "type": "list",
-      "title": "一鍵重裝腳本",
-      "desc": "重裝網絡系統",
+      "title": "重装系统",
+      "desc": "一键重装系统 Debian、Ubuntu、CentOS",
       "name": "reinstall"
     },
     {

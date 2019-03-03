@@ -7,12 +7,16 @@
       "type": "title",
       "value": "操作"
     },
-,
     {
       "type": "action",
-      "value": "變更密碼",
+      "value": "打开终端",
+      "action": ""
+    },
+    {
+      "type": "action",
+      "value": "变更密码",
       "action": "passwd"
-    }
+    },
     {
       "type": "action",
       "value": "重启服务器",
