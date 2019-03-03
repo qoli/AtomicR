@@ -18,12 +18,6 @@
     },
     {
       "type": "list",
-      "title": "终端",
-      "desc": "打开终端界面",
-      "name": "terminal"
-    },
-    {
-      "type": "list",
       "title": "SS 服务器端",
       "desc": "在服务器上安装 Shadowsock 服务器端",
       "name": "SSServer"
