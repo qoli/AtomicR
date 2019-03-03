@@ -41,7 +41,7 @@
     },
     {
       "type": "action",
-      "value": "查看链接",
+      "value": "查看配置",
       "action": "cat /etc/shadowsocks.json"
     },
     {
