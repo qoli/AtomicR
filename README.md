@@ -1,5 +1,9 @@
 # Plane Router
 
+![](https://img.shields.io/discord/551675706749353995.svg)
+
+
+
 Plane Router 是一款基於 JSON 腳本運作的 App。
 
 可用於管理路由器、樹莓派、服務器等透過 SSH 訪問的設備。
@@ -18,15 +22,23 @@ https://testflight.apple.com/join/6Sh4OA2b
 
 
 
-## Service
+## 加入討論
 
-shadowsocks 系列脚本来源：
+##### Discord 討論組
 
-https://www.flyzy2005.com/fan-qiang/shadowsocks/install-shadowsocks-in-one-command/
+https://discord.gg/QcfwBkJ
+
+功能需求、Bugs 反饋請透過 Discord 反饋。
 
 
 
-## Screen
+##### Telegram 討論組
+
+https://t.me/planeroutapp
+
+
+
+## 截圖
 
 ##### Version 2
 
