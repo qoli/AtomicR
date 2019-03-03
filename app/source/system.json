@@ -10,7 +10,7 @@
     {
       "type": "action",
       "value": "打开终端",
-      "action": ""
+      "action": "pwd"
     },
     {
       "type": "action",
