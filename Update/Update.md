@@ -1,16 +1,14 @@
 # 已知 Bugs
 
-##### 在 Terminal 運行中有可能遇到 libssh2_channel_read 錯誤而導致 App 閃退
+##### 在 Terminal 運行命令可能閃退
+
+在 Terminal 運行中有可能遇到 libssh2_channel_read 錯誤而導致 App 閃退
 
 再次執行相同指令即可，目前此 Bugs 為偶發性。
-
-
 
 ##### 在 HND 機型上未支持 Shadowsock 控制面板
 
 等待 App 更新。
-
-
 
 # 計劃進度
 
@@ -25,17 +23,11 @@
 * Add Collection View 支援本地化顯示名稱
 * 增加 HND 機型支援
 
-
-
 ##### 已排程計劃
 
 ##### 1.1
 
 * json 腳本支援預先配置模式一鍵執行
-
-
-
-
 
 # 更新日誌
 
@@ -52,6 +44,8 @@
 ##### App（Build 22）
 
 * 增加更新日誌
+* 使用 SSH 模式讀取配置，嘗試改善兼容性。
+* 嘗試修正 R6300V2 機型閃退
 
 ##### App（Build 21）
 
