@@ -37,6 +37,10 @@ Plane Router 是一個梅林系列路由器的 Shadowsock 管理面板工具。
 
 https://testflight.apple.com/join/6Sh4OA2b
 
+##### 反饋意見：
+
+<https://t.me/planeroutapp>
+
 
 
 ![welcome](./README/welcome.png)
