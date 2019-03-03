@@ -1,0 +1,22 @@
+{
+  "version": "2",
+  "name": "系统操作",
+  "category":"server",
+  "data": [
+    {
+      "type": "title",
+      "value": "操作"
+    },
+,
+    {
+      "type": "action",
+      "value": "變更密碼",
+      "action": "passwd"
+    }
+    {
+      "type": "action",
+      "value": "重启服务器",
+      "action": "reboot"
+    }
+  ]
+}
