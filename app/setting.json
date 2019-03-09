@@ -1,0 +1,30 @@
+{
+  "dataTop": [
+    {
+      "type": "title",
+      "title": "Hosts"
+    }
+  ],
+  "dataBottom": [
+    {
+      "type": "add",
+      "title": "New Hosts"
+    },
+    {
+      "type": "title",
+      "title": "Setting"
+    },
+    {
+      "type": "row",
+      "title": "Howto...",
+      "do": "openweb",
+      "value": ""
+    },
+    {
+      "type": "row",
+      "title": "clean",
+      "do": "callfunc",
+      "value": "clean"
+    }
+  ]
+}
