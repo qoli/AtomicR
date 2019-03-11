@@ -16,7 +16,7 @@
 
 ##### 2019年03月11日
 
-##### App（Build 37）
+##### App（Build 41）
 
 * 修改 Bundle Indentifier 的大小寫錯誤
 * JSONView 增加 **Remove Screen** 功能
