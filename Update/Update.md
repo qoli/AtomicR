@@ -18,6 +18,7 @@
 
 ##### App（Build 41）
 
+* 減少了請求登入的發送次數
 * 修改 Bundle Indentifier 的大小寫錯誤
 * JSONView 增加 **Remove Screen** 功能
 * 增加 **nvram get model** 的 Cache 模式，提升性能
