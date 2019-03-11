@@ -16,10 +16,15 @@
 
 ##### 2019年03月11日
 
-##### App（Build 33）
+##### App（Build 37）
 
+* 修改 Bundle Indentifier 的大小寫錯誤
+* JSONView 增加 **Remove Screen** 功能
+* 增加 **nvram get model** 的 Cache 模式，提升性能
+* 推送功能也可用於與 Shadowsock 梅林面板進行協同，在自動更新訂閱之後推送亦可
+* 增加推送功能，未來用於推送腳本更新 / Shadowsock 更新 / App 更新的提醒信息
 * 追加完整的**添加** / **編輯** / **刪除**節點功能
-* 追加 HND 機型支持
+* 追加 **HND 機型**支持
 * 修復由於網速數據格式無效而導致的閃退
 * 修改部分錯誤的英文單詞
 
