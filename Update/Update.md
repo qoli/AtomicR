@@ -16,10 +16,11 @@
 
 ##### 2019年03月12日
 
-##### App（Build 42）
+##### App（Build 43）
 
 * 追加nvram get model在外部顯示
 * nvram get model 移除無效字符，嘗試排除型號識別錯誤
+* nvram get model 暫時關閉 Cache，正在排除型號識別問題
 
 ##### 2019年03月11日
 
