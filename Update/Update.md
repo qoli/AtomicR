@@ -2,17 +2,26 @@
 
 ##### 在 Terminal 運行命令可能閃退
 
-在 Terminal 運行中有可能遇到 libssh2_channel_read 錯誤而導致 App 閃退
+在 Terminal 運行中有可能遇到 libssh2_channel_read 錯誤而導致 App 閃退。**再次執行相同指令**即可，目前此 Bugs 為偶發性。
 
-再次執行相同指令即可，目前此 Bugs 為偶發性。
-
-##### 在新的配置存檔模式下，VPS 無法調用命令（Build 28 之後）
-
-這是一個進行中事務，等待 App 更新即可。
+此 Bug 尚未找到解決辦法。
 
 
 
 # 更新日誌
+
+##### 2019年03月13日
+
+##### App 1.0 已完成
+
+建議用戶刪除舊版本，再次安裝新版本
+
+##### App（Build 44）
+
+* 完善化 Setting
+* 重寫 Connect Config
+* Screen 支持分配對應 SSH 連線
+* Screen 下的命令可以被 VPS 調用了
 
 ##### 2019年03月12日
 

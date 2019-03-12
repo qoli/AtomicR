@@ -51,16 +51,6 @@
       "title": "系统操作",
       "desc": "一些简单的系统操作",
       "name": "system"
-    },
-    {
-      "type": "title",
-      "title": "其他"
-    },
-    {
-      "type": "list",
-      "title": "清空激活列表",
-      "desc": "清空 Add 列表",
-      "name": ""
     }
   ]
 }
