@@ -67,8 +67,8 @@
     },
     {
       "type": "action",
-      "value": "測試命令",
-      "action": "ls"
+      "value": "獲得路由器型號",
+      "action": "nvram get model"
     }
   ]
 }
