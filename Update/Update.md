@@ -17,9 +17,11 @@
 建議用戶刪除舊版本，再次安裝新版本
 
 * 增加繁體、簡體中文
+* 加入反饋意見功能
 
 ##### App（Build 44）
 
+* App 更新后，將會刷新緩存數據
 * 完善化 Setting
 * 重寫 Connect Config
 * Screen 支持分配對應 SSH 連線
