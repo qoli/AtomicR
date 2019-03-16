@@ -21,6 +21,15 @@
       "type": "action",
       "value": "重启服务器",
       "action": "reboot"
+    },
+    {
+      "type": "title",
+      "value": "软件源"
+    },
+    {
+      "type": "action",
+      "value": "同步软件源并更新",
+      "action": "apt-get update && apt-get upgrade -y"
     }
   ]
 }
