@@ -12,7 +12,7 @@
 
 ##### 2019年03月26日
 
-##### App 1.1
+##### App 1.1（TestFlight）
 
 * 增加 Crashlytics 追蹤 App 奔潰問題
 * 修改 Build 的方式，恢復使用 New Build System
