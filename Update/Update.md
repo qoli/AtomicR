@@ -16,6 +16,7 @@
 
 * 增加 Crashlytics 追蹤 App 奔潰問題
 * 修改 Build 的方式，恢復使用 New Build System
+* 增加是否公網 IP 的提示
 
 ##### 2019年03月13日
 
