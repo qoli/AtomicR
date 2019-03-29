@@ -5,7 +5,7 @@
   "data": [
     {
       "type": "title",
-      "value": "操作"
+      "value": "环境"
     },
     {
       "type": "action",
@@ -18,8 +18,12 @@
       "action": "ipkg update && ipkg upgrade"
     },
     {
+      "type": "title",
+      "value": "安装软件"
+    },
+    {
       "type": "action",
-      "value": "安装 sftp 服务器",
+      "value": "SFTP 服务器",
       "action": "ipkg install openssh-sftp-server"
     }
   ]

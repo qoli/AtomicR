@@ -48,6 +48,12 @@
     },
     {
       "type": "list",
+      "title": "安裝 UDPspeeder",
+      "desc": "UDPspeeder 加速 UDP，合适打游戏",
+      "name": "UDPspeeder"
+    },
+    {
+      "type": "list",
       "title": "系统操作",
       "desc": "一些简单的系统操作",
       "name": "system"

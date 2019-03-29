@@ -1,0 +1,20 @@
+{
+  "version": "2",
+  "name": "UDPspeeder 一键安装",
+  "category": "server",
+  "data": [
+    {
+      "type": "webview",
+      "value": "https://2333blog.com/post/12/"
+    },
+    {
+      "type": "title",
+      "value": "Ubuntu / Debian / CentOS"
+    },
+    {
+      "type": "action",
+      "value": "安装或卸载",
+      "action": "bash <(curl -s -L https://233blog.com/UDPspeeder.sh)"
+    }
+  ]
+}
