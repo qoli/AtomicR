@@ -15,6 +15,24 @@
       "type": "action",
       "value": "安装或卸载",
       "action": "bash <(curl -s -L https://233blog.com/UDPspeeder.sh)"
+    },
+    {
+      "type": "title",
+      "value": "Ubuntu / Debian"
+    },
+    {
+      "type": "action",
+      "value": "安装 CURL",
+      "action": "apt-get update -y && apt-get install curl -y"
+    },
+    {
+      "type": "title",
+      "value": "CentOS"
+    },
+    {
+      "type": "action",
+      "value": "安装 CURL",
+      "action": "yum update -y && yum install curl -y"
     }
   ]
 }
