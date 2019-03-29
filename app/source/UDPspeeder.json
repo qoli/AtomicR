@@ -1,11 +1,22 @@
 {
   "version": "2",
-  "name": "UDPspeeder 一键安装",
+  "name": "UDPspeeder v2 一键安装",
   "category": "server",
   "data": [
     {
       "type": "webview",
+      "text": "安装脚本使用帮助",
       "value": "https://2333blog.com/post/12/"
+    },
+    {
+      "type": "webview",
+      "text": "UDPspeeder 简明操作说明",
+      "value": "https://github.com/wangyu-/UDPspeeder/blob/master/doc/README.zh-cn.md"
+    },
+    {
+      "type": "webview",
+      "text": "UDPspeeder 推荐设置",
+      "value": "https://github.com/wangyu-/UDPspeeder/wiki/推荐设置"
     },
     {
       "type": "title",
@@ -18,21 +29,17 @@
     },
     {
       "type": "title",
-      "value": "Ubuntu / Debian"
+      "value": "启动服务"
     },
     {
       "type": "action",
-      "value": "安装 CURL",
-      "action": "apt-get update -y && apt-get install curl -y"
-    },
-    {
-      "type": "title",
-      "value": "CentOS"
+      "value": "游戏场景，3 倍流量",
+      "action": "./speederv2 -s -l0.0.0.0:4096 -r127.0.0.1:7777 -k 'passwd' -f2:4 --timeout 1"
     },
     {
       "type": "action",
-      "value": "安装 CURL",
-      "action": "yum update -y && yum install curl -y"
+      "value": "游戏场景，2 倍流量",
+      "action": "./speederv2 -s -l0.0.0.0:4096 -r127.0.0.1:7777 -k 'passwd' -f2:2 --timeout 1"
     }
   ]
 }
