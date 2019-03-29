@@ -5,18 +5,8 @@
   "data": [
     {
       "type": "webview",
-      "text": "安装脚本使用帮助",
-      "value": "https://2333blog.com/post/12/"
-    },
-    {
-      "type": "webview",
       "text": "UDPspeeder 简明操作说明",
       "value": "https://github.com/wangyu-/UDPspeeder/blob/master/doc/README.zh-cn.md"
-    },
-    {
-      "type": "webview",
-      "text": "UDPspeeder 推荐设置",
-      "value": "https://github.com/wangyu-/UDPspeeder/wiki/推荐设置"
     },
     {
       "type": "title",
