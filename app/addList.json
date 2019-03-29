@@ -30,6 +30,12 @@
     },
     {
       "type": "list",
+      "title": "安装 v2ray 服务器端",
+      "desc": "安装 v2ray 服务器端",
+      "name": "v2ray"
+    },
+    {
+      "type": "list",
       "title": "安装 BBR",
       "desc": "BBR 是 Google 开源的一套内核加速算法",
       "name": "bbr"

@@ -1,0 +1,54 @@
+{
+  "version": "2",
+  "name": "V2Ray 服务器",
+  "category": "server",
+  "data": [
+    {
+      "type": "webview",
+      "text": "V2Ray一键安装脚本",
+      "value": "https://github.com/233boy/v2ray/wiki/V2Ray一键安装脚本"
+    },
+    {
+      "type": "title",
+      "value": "信息"
+    },
+    {
+      "type": "message",
+      "value": "脚本要求",
+      "action": "需要 root 运行，此脚本会自动激活 BBR 优化（无需安装 BBR）"
+    },
+    {
+      "type": "title",
+      "value": "Ubuntu / Debian"
+    },
+    {
+      "type": "action",
+      "value": "安装或卸载",
+      "action": "bash <(curl -s -L https://git.io/v2ray.sh)"
+    },
+    {
+      "type": "title",
+      "value": "操作"
+    },
+    {
+      "type": "action",
+      "value": "配置信息",
+      "action": "v2ray info"
+    },
+    {
+      "type": "action",
+      "value": "配置信息链接",
+      "action": "v2ray infolink"
+    },
+    {
+      "type": "action",
+      "value": "查看 Shadowsocks 配置信息",
+      "action": "v2ray ssinfo"
+    },
+    {
+      "type": "action",
+      "value": "重启 V2Ray ",
+      "action": "v2ray restart"
+    }
+  ]
+}
