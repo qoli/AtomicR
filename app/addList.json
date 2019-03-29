@@ -18,13 +18,13 @@
     },
     {
       "type": "list",
-      "title": "SS 服务器端",
+      "title": "安装 Shadowsock 服务器端",
       "desc": "在服务器上安装 Shadowsock 服务器端",
       "name": "SSServer"
     },
     {
       "type": "list",
-      "title": "SSR 服务器端",
+      "title": "安装 ShadowsockR 服务器端",
       "desc": "在服务器上安装 ShadowsockR 服务器端",
       "name": "SSRServer"
     },
@@ -33,12 +33,6 @@
       "title": "安装 BBR",
       "desc": "BBR 是 Google 开源的一套内核加速算法",
       "name": "bbr"
-    },
-    {
-      "type": "list",
-      "title": "重装系统",
-      "desc": "一键重装系统 Debian、Ubuntu、CentOS",
-      "name": "reinstall"
     },
     {
       "type": "list",
@@ -51,6 +45,12 @@
       "title": "安裝 UDPspeeder v2",
       "desc": "UDPspeeder 加速 UDP，合适打游戏",
       "name": "UDPspeeder"
+    },
+{
+      "type": "list",
+      "title": "重装系统",
+      "desc": "一键重装系统 Debian、Ubuntu、CentOS",
+      "name": "reinstall"
     },
     {
       "type": "list",
