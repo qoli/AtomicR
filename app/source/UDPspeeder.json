@@ -40,6 +40,11 @@
       "type": "action",
       "value": "游戏场景，2 倍流量",
       "action": "./speederv2 -s -l0.0.0.0:4096 -r127.0.0.1:7777 -k 'passwd' -f2:2 --timeout 1"
+    },
+    {
+      "type": "action",
+      "value": "结束进程",
+      "action": "pkill -f speederv2"
     }
   ]
 }
