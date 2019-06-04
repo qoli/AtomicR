@@ -1,0 +1,17 @@
+{
+  "version": "2",
+  "name": "SMABA 加速配置",
+  "category":"clinent",
+  "data": [
+    {
+      "type": "webview",
+      "text": "说明帖子",
+      "value": "http://koolshare.cn/thread-155516-1-1.html"
+    },
+    {
+      "type": "action",
+      "value": "启用配置",
+      "action": "cd /tmp && curl -LO https://github.com/qoli/Merlin.PHP/raw/master/bin/install/ipks/optware-ngu-setup.sh && sh ./optware-ngu-setup.sh"
+    }
+  ]
+}
