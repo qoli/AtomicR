@@ -1,0 +1,21 @@
+{
+  "version": "2",
+  "name": "路由器一些简单操作",
+  "category":"clinent",
+  "data": [
+    {
+      "type": "title",
+      "value": "操作"
+    },
+    {
+      "type": "action",
+      "value": "命令重启路由器",
+      "action": "reboot"
+    },
+    {
+      "type": "action",
+      "value": "剔除已登入用户",
+      "action": "nvram unset login_ip_str && nvram unset login_timestamp && nvram unset login_ip && nvram commit"
+    }
+  ]
+}

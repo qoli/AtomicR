@@ -12,11 +12,17 @@
       "desc": "给路由器添加 ipkg 软件源管理工具",
       "name": "optware"
     },
-        {
+    {
       "type": "list",
       "title": "USB SMABA 加速",
-      "desc": "增加TCP最大会话数、优化CPU内核，达到加速U盘读取速度的目的",
+      "desc": "加快 U 盘的读写速度",
       "name": "usbsmb"
+    },
+    {
+      "type": "list",
+      "title": "路由器的简单操作",
+      "desc": "一些用于路由器操作的指令",
+      "name": "router"
     },
     {
       "type": "title",
@@ -58,7 +64,7 @@
       "desc": "UDPspeeder 加速 UDP，合适打游戏",
       "name": "UDPspeeder"
     },
-{
+    {
       "type": "list",
       "title": "重装系统",
       "desc": "一键重装系统 Debian、Ubuntu、CentOS",
