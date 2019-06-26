@@ -9,6 +9,11 @@
       "value": "https://github.com/hq450/fancyss/blob/master/README.md"
     },
     {
+      "type": "message",
+      "value": "2019年05月19日",
+      "action": "此页面最后更新日期"
+    },
+    {
       "type": "title",
       "value": "HND Model"
     },
@@ -19,7 +24,7 @@
     },
     {
       "type": "message",
-      "value": "GT-AC5300 RT-AC86U",
+      "value": "GT-AC5300 RT-AC86U RT-AX88U RT-AX11000",
       "action": "支持型號"
     },
     {
