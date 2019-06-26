@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "name": "安裝 Shadowsock",
+  "name": "安裝插件",
   "category": "clinent",
   "data": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "type": "action",
-      "value": "安裝 Shadowsock 为 HND 型号",
+      "value": "安裝 Shadowsock 为 HND 系列",
       "action": "cd /tmp && wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_hnd/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
     },
     {
@@ -28,7 +28,7 @@
     },
     {
       "type": "action",
-      "value": "安裝 Shadowsock 为 ARM 型号",
+      "value": "安裝 Shadowsock 为 ARM 系列",
       "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
     },
     {
@@ -44,7 +44,7 @@
     {
       "type": "message",
       "value": "EA6200 EA6400 EA6500v2 EA6700 EA6900",
-      "action": "Linksys EA系列"
+      "action": "Linksys EA 系列"
     },
     {
       "type": "message",
@@ -57,18 +57,13 @@
     },
     {
       "type": "action",
-      "value": "安裝 Shadowsock 为 Mipsel 型号",
+      "value": "安裝 Shadowsock 为 Mipsel 系列",
       "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_mipsel/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
     },
     {
       "type": "message",
       "value": "RT-N66U RT-AC66U（非RT-AC66U-B1）",
       "action": "支持型號"
-    },
-    {
-      "type": "action",
-      "value": "獲得路由器型號",
-      "action": "nvram get model"
     }
   ]
 }
