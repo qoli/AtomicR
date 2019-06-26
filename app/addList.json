@@ -14,12 +14,6 @@
     },
     {
       "type": "list",
-      "title": "USB SMABA 加速",
-      "desc": "加快 U 盘的读写速度",
-      "name": "usbsmb"
-    },
-    {
-      "type": "list",
       "title": "路由器的简单操作",
       "desc": "一些用于路由器操作的指令",
       "name": "router"
