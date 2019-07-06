@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "name": "阿里云新装服务器",
+  "name": "阿里云新装 CentOS 7",
   "category": "server",
   "data": [
     {
@@ -9,9 +9,28 @@
       "value": "https://sobaigu.com/AlibabaCloud-CentOS7-Pure-and-safe.html"
     },
     {
+      "type": "webview",
+      "text": "AlibabaCloud-CentOS7-Pure-and-safe",
+      "value": "https://github.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe"
+    },
+    {
+      "type": "title",
+      "value": "CentOS7 淨化安裝"
+    },
+    {
       "type": "action",
-      "value": "一键安装净化系统",
-      "action": "sudo curl -sSL https://git.io/fhpMX | sudo bash"
+      "value": "全新淨化安裝 CentOS 7",
+      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/New_installation.sh | sudo bash"
+    },
+    {
+      "type": "action",
+      "value": "Snapshot / mirror recovery",
+      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/Snapshot_image.sh | sudo bash"
+    },
+    {
+      "type": "action",
+      "value": "Replace the kernel and install LotServer",
+      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash"
     },
     {
       "type": "action",
