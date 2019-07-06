@@ -1,6 +1,6 @@
 {
   "version": "2",
-  "name": "阿里云新装 CentOS 7",
+  "name": "阿里云 CentOS 7",
   "category": "server",
   "data": [
     {
@@ -24,12 +24,12 @@
     },
     {
       "type": "action",
-      "value": "Snapshot / mirror recovery",
+      "value": "快照 / 镜像恢复",
       "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/Snapshot_image.sh | sudo bash"
     },
     {
       "type": "action",
-      "value": "Replace the kernel and install LotServer",
+      "value": "更换内核并安装 LotServer",
       "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash"
     },
     {
