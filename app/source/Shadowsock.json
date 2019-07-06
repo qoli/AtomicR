@@ -5,13 +5,8 @@
   "data": [
     {
       "type": "webview",
-      "text": "README.md",
+      "text": "科学上网插件安装说明",
       "value": "https://github.com/hq450/fancyss/blob/master/README.md"
-    },
-    {
-      "type": "message",
-      "value": "2019年05月19日",
-      "action": "此页面最后更新日期"
     },
     {
       "type": "title",
@@ -55,20 +50,6 @@
       "type": "message",
       "value": "ws880",
       "action": "华为"
-    },
-    {
-      "type": "title",
-      "value": "Mipsel Model"
-    },
-    {
-      "type": "action",
-      "value": "安裝 Shadowsock 为 Mipsel 系列",
-      "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_mipsel/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
-    },
-    {
-      "type": "message",
-      "value": "RT-N66U RT-AC66U（非RT-AC66U-B1）",
-      "action": "支持型號"
     }
   ]
 }
