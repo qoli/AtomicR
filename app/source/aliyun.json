@@ -33,6 +33,10 @@
       "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash"
     },
     {
+      "type": "title",
+      "value": "其他操作"
+    },
+    {
       "type": "action",
       "value": "关闭防火墙",
       "action": "systemctl stop firewalld.service && systemctl disable firewalld.service"
