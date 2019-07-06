@@ -36,7 +36,7 @@
     },
     {
       "type": "list",
-      "title": "阿里云服务器",
+      "title": "阿里云新装 CentOS 7",
       "desc": "新装阿里云应该做的一些设定",
       "name": "aliyun"
     },
