@@ -1,0 +1,48 @@
+{
+  "version": "2",
+  "name": "阿里云新装服务器",
+  "category": "server",
+  "data": [
+    {
+      "type": "webview",
+      "text": "阿里云新装说明",
+      "value": "https://sobaigu.com/AlibabaCloud-CentOS7-Pure-and-safe.html"
+    },
+    {
+      "type": "title",
+      "value": "净化系统"
+    },
+    {
+      "type": "action",
+      "value": "全新的安装",
+      "action": "sudo curl -sSL https://git.io/fhpMX | sudo bash"
+    },
+    {
+      "type": "title",
+      "value": "关闭防火墙"
+    },
+    {
+      "type": "action",
+      "value": "全新的安装",
+      "action": "systemctl stop firewalld.service && systemctl disable firewalld.service"
+    },
+    {
+      "type": "title",
+      "value": "替换 BBR"
+    },
+    {
+      "type": "action",
+      "value": "一键脚本暴力BBR",
+      "action": "sudo curl -sSL https://git.io/vxJ1I | sudo bash"
+    },
+    {
+      "type": "title",
+      "value": "开心宝塔"
+    },
+    {
+      "type": "action",
+      "value": "一键脚本暴力BBR",
+      "action": "sudo curl -sSL https://git.io/fprzD | sudo bash"
+    }
+  ]
+}
