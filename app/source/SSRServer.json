@@ -5,11 +5,8 @@
   "data": [
     {
       "type": "webview",
-      "value": "https://shadowsocks.be/9.html"
-    },
-    {
-      "type": "title",
-      "value": "信息"
+      "text": "查看操作说明",
+      "value": "https://ssr.tools/803"
     },
     {
       "type": "message",
@@ -23,7 +20,7 @@
     {
       "type": "action",
       "value": "ShadowsocksR 一键安装",
-      "action": "wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh && ./shadowsocksR.sh 2>&1 | tee shadowsocksR.log"
+      "action": "wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh"
     },
     {
       "type": "title",
@@ -31,23 +28,8 @@
     },
     {
       "type": "action",
-      "value": "重启",
-      "action": "/etc/init.d/shadowsocks restart && exit"
-    },
-    {
-      "type": "action",
-      "value": "状态",
-      "action": "/etc/init.d/shadowsocks status"
-    },
-    {
-      "type": "action",
-      "value": "查看配置",
-      "action": "cat /etc/shadowsocks.json"
-    },
-    {
-      "type": "action",
-      "value": "卸载 ",
-      "action": "./shadowsocksR.sh uninstall"
+      "value": "调整设定",
+      "action": "bash ssr.sh"
     }
   ]
 }
