@@ -1,0 +1,17 @@
+{
+  "version": "2",
+  "name": "anti-AD 去广告",
+  "category":"clinent",
+  "data": [
+    {
+      "type": "webview",
+      "text": "anti-AD 项目介绍",
+      "value": "https://github.com/gentlyxu/anti-AD"
+    },
+    {
+      "type": "action",
+      "value": "下载或更新去广告文件",
+      "action": "cd /jffs/configs/dnsmasq.d && wget https://raw.githubusercontent.com/gentlyx/anti-AD/master/adblock-for-dnsmasq.conf && service restart_dnsmasq"
+    }
+  ]
+}

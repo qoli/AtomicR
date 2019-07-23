@@ -1,16 +1,16 @@
 # Plane Router
 
-![](https://img.shields.io/discord/551675706749353995.svg)
-
-
-
 Plane Router 是一款基於 JSON 腳本運作的 App。
 
 可用於管理路由器、樹莓派、服務器等透過 SSH 訪問的設備。
 
-
-
 AtomicR 項目是 PlaneR 的腳本存放位置。
+
+
+
+## 商店下載
+
+[https://apps.apple.com/cn/app/小飞机路由控制器/id1452044466](https://apps.apple.com/cn/app/小飞机路由控制器/id1452044466)
 
 
 
@@ -24,14 +24,6 @@ https://testflight.apple.com/join/6Sh4OA2b
 
 ## 加入討論
 
-##### Discord 討論組
-
-https://discord.gg/QcfwBkJ
-
-功能需求、Bugs 反饋請透過 Discord 反饋。
-
-
-
 ##### Telegram 討論組
 
 https://t.me/planeroutapp
@@ -40,16 +32,5 @@ https://t.me/planeroutapp
 
 ## 截圖
 
-##### Version 2
+![preview](./README/dribbble_4x.png)
 
-![Screen1](./README/Screen1.png)
-
-![Screen2](./README/Screen2.png)
-
-![Screen3](./README/Screen3.png)
-
-
-
-##### Version 1
-
-![screen](./README/screen.png)

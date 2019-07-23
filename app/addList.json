@@ -19,6 +19,12 @@
       "name": "router"
     },
     {
+      "type": "list",
+      "title": "Dnsmasq 去广告",
+      "desc": "基于 Dnsmasq 运行的 Hosts 去广告功能",
+      "name": "antiad"
+    },
+    {
       "type": "title",
       "title": "服务器"
     },
