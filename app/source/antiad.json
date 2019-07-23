@@ -12,6 +12,11 @@
       "type": "action",
       "value": "下载或更新去广告文件",
       "action": "cd /jffs/configs/dnsmasq.d && wget https://raw.githubusercontent.com/gentlyx/anti-AD/master/adblock-for-dnsmasq.conf && service restart_dnsmasq"
+    },
+    {
+      "type": "action",
+      "value": "查看本地去广告文件日期",
+      "action": "cd /jffs/configs/dnsmasq.d && cat ./adblock-for-dnsmasq.conf | head -n 1"
     }
   ]
 }
