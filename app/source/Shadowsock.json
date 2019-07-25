@@ -4,14 +4,14 @@
   "category": "clinent",
   "data": [
     {
-      "type": "webview",
-      "text": "科学上网插件安装说明",
-      "value": "https://github.com/hq450/fancyss/blob/master/README.md"
-    },
-    {
       "type": "message",
       "value": "2019-07-25 20:10:45 · 修正下载重名问题",
       "action": "更新时间"
+    },
+    {
+      "type": "webview",
+      "text": "科学上网插件安装说明",
+      "value": "https://github.com/hq450/fancyss/blob/master/README.md"
     },
     {
       "type": "title",
