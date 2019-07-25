@@ -9,13 +9,18 @@
       "value": "https://github.com/hq450/fancyss/blob/master/README.md"
     },
     {
+      "type": "message",
+      "value": "2019-07-25 20:10:45 · 修正下载重名问题",
+      "action": "更新时间"
+    },
+    {
       "type": "title",
       "value": "HND Model"
     },
     {
       "type": "action",
       "value": "安裝 Shadowsock 为 HND 系列",
-      "action": "cd /tmp && wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_hnd/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+      "action": "cd /tmp && rm shadowsocks.tar.gz && wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_hnd/shadowsocks.tar.gz -O shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
     },
     {
       "type": "message",
@@ -29,7 +34,7 @@
     {
       "type": "action",
       "value": "安裝 Shadowsock 为 ARM 系列",
-      "action": "cd /tmp && wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+      "action": "cd /tmp && rm shadowsocks.tar.gz wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz -O shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
     },
     {
       "type": "message",
