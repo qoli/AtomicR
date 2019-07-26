@@ -1,0 +1,35 @@
+{
+  "version": "2",
+  "name": "Entware 环境",
+  "category":"clinent",
+  "data": [
+    {
+      "type": "title",
+      "value": "环境"
+    },
+    {
+      "type": "message",
+      "value": "脚本要求",
+      "action": "此腳本要求有 U 盘才可正常安装"
+    },
+    {
+      "type": "action",
+      "value": "安装环境",
+      "action": "cd /tmp && curl -LO https://github.com/qoli/Merlin.PHP/raw/master/bin/install/ipks/optware-ngu-setup.sh && sh ./optware-ngu-setup.sh"
+    },
+    {
+      "type": "action",
+      "value": "ipkg 环境更新",
+      "action": "ipkg update && ipkg upgrade"
+    },
+    {
+      "type": "title",
+      "value": "安装软件"
+    },
+    {
+      "type": "action",
+      "value": "SFTP 服务器",
+      "action": "ipkg install openssh-sftp-server"
+    }
+  ]
+}
