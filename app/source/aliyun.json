@@ -1,16 +1,14 @@
 {
-  "version": "2",
-  "name": "阿里云 CentOS 7",
   "category": "server",
   "data": [
     {
-      "type": "webview",
       "text": "阿里云新装说明",
+      "type": "webview",
       "value": "https://sobaigu.com/AlibabaCloud-CentOS7-Pure-and-safe.html"
     },
     {
-      "type": "webview",
       "text": "AlibabaCloud-CentOS7-Pure-and-safe",
+      "type": "webview",
       "value": "https://github.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe"
     },
     {
@@ -18,38 +16,40 @@
       "value": "CentOS7 淨化安裝"
     },
     {
+      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/New_installation.sh | sudo bash",
       "type": "action",
-      "value": "全新淨化安裝 CentOS 7",
-      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/New_installation.sh | sudo bash"
+      "value": "全新淨化安裝 CentOS 7"
     },
     {
+      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/Snapshot_image.sh | sudo bash",
       "type": "action",
-      "value": "快照 / 镜像恢复",
-      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/kill/Snapshot_image.sh | sudo bash"
+      "value": "快照 / 镜像恢复"
     },
     {
+      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash",
       "type": "action",
-      "value": "更换内核并安装 LotServer",
-      "action": "sudo curl -sSL https://raw.githubusercontent.com/MeowLove/AlibabaCloud-CentOS7-Pure-and-safe/master/download/LotServer/install.sh | sudo bash"
+      "value": "更换内核并安装 LotServer"
     },
     {
       "type": "title",
       "value": "其他操作"
     },
     {
+      "action": "systemctl stop firewalld.service && systemctl disable firewalld.service",
       "type": "action",
-      "value": "关闭防火墙",
-      "action": "systemctl stop firewalld.service && systemctl disable firewalld.service"
+      "value": "关闭防火墙"
     },
     {
+      "action": "sudo curl -sSL https://git.io/vxJ1I | sudo bash",
       "type": "action",
-      "value": "一键脚本暴力BBR",
-      "action": "sudo curl -sSL https://git.io/vxJ1I | sudo bash"
+      "value": "一键脚本暴力BBR"
     },
     {
+      "action": "sudo curl -sSL https://git.io/fprzD | sudo bash",
       "type": "action",
-      "value": "一键安装宝塔",
-      "action": "sudo curl -sSL https://git.io/fprzD | sudo bash"
+      "value": "一键安装宝塔"
     }
-  ]
+  ],
+  "name": "阿里云 CentOS 7",
+  "version": "2"
 }

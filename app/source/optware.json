@@ -1,35 +1,40 @@
 {
-  "version": "2",
   "name": "OPTWARE 环境",
-  "category":"clinent",
+  "version": "2",
+  "category": "clinent",
   "data": [
     {
       "type": "title",
       "value": "环境"
     },
     {
+      "action": "此腳本要求有 U 盘才可正常安装",
       "type": "message",
-      "value": "脚本要求",
-      "action": "此腳本要求有 U 盘才可正常安装"
+      "value": "脚本要求"
     },
     {
+      "action": "cd /tmp && curl -LO https://github.com/qoli/Merlin.PHP/raw/master/bin/install/ipks/optware-ngu-setup.sh && sh ./optware-ngu-setup.sh",
       "type": "action",
-      "value": "安装环境",
-      "action": "cd /tmp && curl -LO https://github.com/qoli/Merlin.PHP/raw/master/bin/install/ipks/optware-ngu-setup.sh && sh ./optware-ngu-setup.sh"
+      "value": "安装环境"
     },
     {
+      "action": "ipkg update && ipkg upgrade",
       "type": "action",
-      "value": "ipkg 环境更新",
-      "action": "ipkg update && ipkg upgrade"
+      "value": "ipkg 环境更新"
     },
     {
       "type": "title",
       "value": "安装软件"
     },
     {
+      "action": "ipkg install openssh-sftp-server",
       "type": "action",
-      "value": "SFTP 服务器",
-      "action": "ipkg install openssh-sftp-server"
+      "value": "SFTP 服务器"
+    },
+    {
+      "action": "ipkg install nano",
+      "type": "action",
+      "value": "nano 编辑器"
     }
   ]
 }

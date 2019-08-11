@@ -1,16 +1,14 @@
 {
-  "version": "2",
-  "name": "安裝插件",
   "category": "clinent",
   "data": [
     {
+      "action": "更新时间",
       "type": "message",
-      "value": "2019-07-25 20:16:51 · 修正下载重名问题和命令錯誤",
-      "action": "更新时间"
+      "value": "2019-07-25 20:16:51 · 修正下载重名问题和命令錯誤"
     },
     {
-      "type": "webview",
       "text": "科学上网插件安装说明",
+      "type": "webview",
       "value": "https://github.com/hq450/fancyss/blob/master/README.md"
     },
     {
@@ -18,43 +16,45 @@
       "value": "HND Model"
     },
     {
+      "action": "cd /tmp && wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_hnd/shadowsocks.tar.gz -O shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit",
       "type": "action",
-      "value": "安裝 Shadowsock 为 HND 系列",
-      "action": "cd /tmp && wget --no-check-certificate https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_hnd/shadowsocks.tar.gz -O shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+      "value": "安裝 Shadowsock 为 HND 系列"
     },
     {
+      "action": "支持型號",
       "type": "message",
-      "value": "GT-AC5300 RT-AC86U RT-AX88U RT-AX11000",
-      "action": "支持型號"
+      "value": "GT-AC5300 RT-AC86U RT-AX88U RT-AX11000"
     },
     {
       "type": "title",
       "value": "ARM Model"
     },
     {
+      "action": "cd /tmp &&wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz -O shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit",
       "type": "action",
-      "value": "安裝 Shadowsock 为 ARM 系列",
-      "action": "cd /tmp &&wget https://raw.githubusercontent.com/hq450/fancyss/master/fancyss_arm/shadowsocks.tar.gz -O shadowsocks.tar.gz && tar -zxvf /tmp/shadowsocks.tar.gz && chmod +x /tmp/shadowsocks/install.sh && sh /tmp/shadowsocks/install.sh && exit"
+      "value": "安裝 Shadowsock 为 ARM 系列"
     },
     {
+      "action": "华硕系列",
       "type": "message",
-      "value": "RT-AC56U RT-AC68U RT-AC66U-B1 RT-AC1900P RT-AC87U RT-AC88U RT-AC3100 RT-AC3200 RT-AC5300",
-      "action": "华硕系列"
+      "value": "RT-AC56U RT-AC68U RT-AC66U-B1 RT-AC1900P RT-AC87U RT-AC88U RT-AC3100 RT-AC3200 RT-AC5300"
     },
     {
+      "action": "网件系列",
       "type": "message",
-      "value": "R6300V2 R6400 R6900 R7000 R8000 R8500",
-      "action": "网件系列"
+      "value": "R6300V2 R6400 R6900 R7000 R8000 R8500"
     },
     {
+      "action": "Linksys EA 系列",
       "type": "message",
-      "value": "EA6200 EA6400 EA6500v2 EA6700 EA6900",
-      "action": "Linksys EA 系列"
+      "value": "EA6200 EA6400 EA6500v2 EA6700 EA6900"
     },
     {
+      "action": "华为",
       "type": "message",
-      "value": "ws880",
-      "action": "华为"
+      "value": "ws880"
     }
-  ]
+  ],
+  "name": "安裝插件",
+  "version": "2"
 }

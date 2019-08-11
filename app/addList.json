@@ -1,86 +1,92 @@
 {
-  "version": "2",
-  "name": "addList",
   "data": [
     {
-      "type": "title",
-      "title": "路由器"
+      "title": "路由器",
+      "type": "title"
     },
     {
-      "type": "list",
+      "desc": "ipkg 软件源",
+      "name": "optware",
       "title": "Optware 环境",
-      "desc": "给路由器添加 ipkg 软件源管理工具",
-      "name": "optware"
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "路由器的简单操作",
+      "desc": "opkg 软件源",
+      "name": "entware",
+      "title": "Entware 环境",
+      "type": "list"
+    },
+    {
       "desc": "一些用于路由器操作的指令",
-      "name": "router"
+      "name": "router",
+      "title": "路由器的简单操作",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "Dnsmasq 去广告",
       "desc": "基于 Dnsmasq 运行的 Hosts 去广告功能",
-      "name": "antiad"
+      "name": "antiad",
+      "title": "Dnsmasq 去广告",
+      "type": "list"
     },
     {
-      "type": "title",
-      "title": "服务器"
+      "title": "服务器",
+      "type": "title"
     },
     {
-      "type": "list",
-      "title": "安装 Shadowsock 服务器端",
       "desc": "在服务器上安装 Shadowsock 服务器端",
-      "name": "SSServer"
+      "name": "SSServer",
+      "title": "安装 Shadowsock 服务器端",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "安装 ShadowsockR 服务器端",
       "desc": "在服务器上安装 ShadowsockR 服务器端",
-      "name": "SSRServer"
+      "name": "SSRServer",
+      "title": "安装 ShadowsockR 服务器端",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "阿里云新装 CentOS 7",
       "desc": "新装阿里云应该做的一些设定",
-      "name": "aliyun"
+      "name": "aliyun",
+      "title": "阿里云新装 CentOS 7",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "安装 v2ray 服务器端",
       "desc": "安装 v2ray 服务器端",
-      "name": "v2ray"
+      "name": "v2ray",
+      "title": "安装 v2ray 服务器端",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "安装 BBR",
       "desc": "BBR 是 Google 开源的一套内核加速算法",
-      "name": "bbr"
+      "name": "bbr",
+      "title": "安装 BBR",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "安裝 L2TP/IPSec",
       "desc": "L2TP/IPSec VPN",
-      "name": "l2tp"
+      "name": "l2tp",
+      "title": "安裝 L2TP/IPSec",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "安裝 UDPspeeder v2",
       "desc": "UDPspeeder 加速 UDP，合适打游戏",
-      "name": "UDPspeeder"
+      "name": "UDPspeeder",
+      "title": "安裝 UDPspeeder v2",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "重装系统",
       "desc": "一键重装系统 Debian、Ubuntu、CentOS",
-      "name": "reinstall"
+      "name": "reinstall",
+      "title": "重装系统",
+      "type": "list"
     },
     {
-      "type": "list",
-      "title": "系统操作",
       "desc": "一些简单的系统操作",
-      "name": "system"
+      "name": "system",
+      "title": "系统操作",
+      "type": "list"
     }
-  ]
+  ],
+  "name": "addList",
+  "version": "2"
 }

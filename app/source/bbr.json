@@ -1,11 +1,9 @@
 {
-  "version": "2",
-  "name": "bbr",
   "category": "server",
   "data": [
     {
-      "type": "webview",
       "text": "BBR 安装说明",
+      "type": "webview",
       "value": "https://sobaigu.com/AlibabaCloud-CentOS7-Pure-and-safe.html"
     },
     {
@@ -13,9 +11,11 @@
       "value": "安装"
     },
     {
+      "action": "sudo curl -sSL https://git.io/vxJ1I | sudo bash",
       "type": "action",
-      "value": "安装 BBR",
-      "action": "sudo curl -sSL https://git.io/vxJ1I | sudo bash"
+      "value": "安装 BBR"
     }
-  ]
+  ],
+  "name": "bbr",
+  "version": "2"
 }
