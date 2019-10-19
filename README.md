@@ -14,11 +14,11 @@ AtomicR 項目是 PlaneR 的腳本存放位置。
 
 
 
-## 公测版本
+## 計劃
 
-https://testflight.apple.com/join/6Sh4OA2b
-
-公测版本存在很多问题，可使用 GitHub issues 反馈
+- [x] 修正 SS/SSR 切換模式錯誤
+- [ ] 加入科學上網插件切換開關
+- [ ] 修正 Ping 對 ipv6 的支持
 
 
 

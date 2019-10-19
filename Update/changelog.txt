@@ -1,6 +1,2 @@
-2019年07月31日
-SS/SSR 切換會產生 Bug
-
-iOS 13（等待 iOS 13 正式发布）
-兼容 iOS 13
-增加了深色模式
+2019-10-13
+iOS 13 Dark Mode Support

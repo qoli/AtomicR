@@ -1,9 +1,10 @@
 {
   "category": "clinent",
   "data": [
-        {
-      "type": "title",
-      "value": "环境"
+    {
+      "action": "将使用具备推送能力的脚本替换",
+      "type": "message",
+      "value": "将"
     },
     {
       "action": "cd /jffs/configs/dnsmasq.d && wget https://raw.githubusercontent.com/gentlyx/anti-AD/master/adblock-for-dnsmasq.conf -O adblock-for-dnsmasq.conf && service restart_dnsmasq",
