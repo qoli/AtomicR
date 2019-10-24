@@ -20,6 +20,11 @@
       "action": "cd /jffs/configs/dnsmasq.d && cat ./adblock-for-dnsmasq.conf | head -n 1",
       "type": "action",
       "value": "查看本地去广告文件日期"
+    },
+    {
+      "action": "rm /jffs/configs/dnsmasq.d/adblock-for-dnsmasq.conf",
+      "type": "action",
+      "value": "移除去广告脚本"
     }
   ],
   "name": "Dnsmasq 去广告",
