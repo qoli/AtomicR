@@ -25,7 +25,7 @@
     {
       "desc": "基于 Dnsmasq 运行的 Hosts 去广告功能",
       "name": "antiad",
-      "title": "Dnsmasq 去广告",
+      "title": "路由器去广告",
       "type": "list"
     },
     {

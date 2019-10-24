@@ -24,9 +24,9 @@
     {
       "action": "rm /jffs/configs/dnsmasq.d/adblock-for-dnsmasq.conf && service restart_dnsmasq",
       "type": "action",
-      "value": "移除去广告脚本"
+      "value": "移除去广告文本"
     }
   ],
-  "name": "Dnsmasq 去广告",
+  "name": "路由器去广告",
   "version": "2"
 }
