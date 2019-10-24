@@ -26,7 +26,7 @@ AtomicR 項目是 PlaneR 的腳本存放位置。
 
 ##### Telegram 討論組
 
-https://t.me/planeroutapp
+https://t.me/RonnieApps
 
 
 
