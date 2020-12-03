@@ -1,0 +1,22 @@
+{
+  "category": "clinent",
+  "data": [
+    {
+      "action": "更新时间",
+      "type": "message",
+      "value": "2020.09.23"
+    },
+    {
+      "action": "cd /jffs/configs/dnsmasq.d && wget --no-check-certificate https://raw.githubusercontent.com/gentlyx/anti-AD/master/adblock-for-dnsmasq.conf -O adblock-for-dnsmasq.conf && service restart_dnsmasq",
+      "type": "action",
+      "value": "下载或更新去广告文件"
+    },
+    {
+      "action": "rm /jffs/configs/dnsmasq.d/adblock-for-dnsmasq.conf && service restart_dnsmasq",
+      "type": "action",
+      "value": "移除去广告文本"
+    }
+  ],
+  "name": "githubusercontent Hosts",
+  "version": "2"
+}
